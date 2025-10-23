@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadVsTask_Ex1", "ThreadVsTask_Ex1\ThreadVsTask_Ex1.csproj", "{F797C2E7-C12A-48B1-B725-4E69E9B38BCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadVsTask", "ThreadVsTask\ThreadVsTask.csproj", "{F797C2E7-C12A-48B1-B725-4E69E9B38BCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{0E7CF52B-90C4-4875-A04A-F551A261DE15}"
 EndProject
