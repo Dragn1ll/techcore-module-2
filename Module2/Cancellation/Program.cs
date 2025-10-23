@@ -14,4 +14,6 @@ async Task DoSomething(CancellationToken token)
         await Task.Delay(1000, token);
         Console.WriteLine("1");
     }
+    
+    throw new OperationCanceledException();
 }
