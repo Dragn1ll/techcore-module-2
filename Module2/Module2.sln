@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEnumerable", "AsyncEnu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress", "Progress\Progress.csproj", "{A961B875-681E-4927-85A5-45B925EA78D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTask", "ValueTask\ValueTask.csproj", "{C9C8FE89-EDDF-40C3-8F86-54582568F13D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{A961B875-681E-4927-85A5-45B925EA78D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A961B875-681E-4927-85A5-45B925EA78D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A961B875-681E-4927-85A5-45B925EA78D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C8FE89-EDDF-40C3-8F86-54582568F13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C8FE89-EDDF-40C3-8F86-54582568F13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C8FE89-EDDF-40C3-8F86-54582568F13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C8FE89-EDDF-40C3-8F86-54582568F13D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
