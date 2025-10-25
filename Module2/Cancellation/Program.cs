@@ -1,9 +1,17 @@
 ﻿var cts = new CancellationTokenSource();
 
-DoSomething(cts.Token);
-await Task.Delay(2000);
+try
+{
+    DoSomething(cts.Token);
+    await Task.Delay(2000);
 
-cts.Cancel();
+    cts.Cancel();
+}
+catch (Exception e)
+{
+    Console.WriteLine(e.Message);
+    throw;
+}
 
 return;
 
@@ -15,5 +23,5 @@ async Task DoSomething(CancellationToken token)
         Console.WriteLine("1");
     }
     
-    throw new OperationCanceledException();
+    token.ThrowIfCancellationRequested();
 }
